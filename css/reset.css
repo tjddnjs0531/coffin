@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; box-sizing: border-box; font-size: 100%; vertical-align: top;}
+ul, ol, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+.clear_fix::after, 
+.clear_fix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+table{border-collapse: collapse; border-spacing: 0;}
+
+body{line-height: 1; color: #444;}
